@@ -1,32 +1,122 @@
 # MOJO CRM - An AI enabled CRM system
-This is a AI enhanced Customer Relationship System Project made by me for my Semester 6 Blackbook project . The main motive behind developing this CRM system is that traditional CRMs existing today have most of the required features but almost every single system is dependant on Manual  work and in this progressing world of AI and automation , I intend to create a complete CRM with everything from basic to additional automated features which will help businesses as well as their customers to increase their efficiency and ensure smoother work flow.
+# AI-Enhanced CRM System
 
-The main features of this CRM system include :
+This project is an AI-powered Customer Relationship Management (CRM) system designed to improve the accuracy of CRM data using Natural Language Processing (NLP) and Machine Learning models. The system provides both a frontend dashboard and a FastAPI-based backend. AI capabilities include sentiment analysis, predictive text generation, and data validation to help streamline CRM workflows.
 
-1. Log In :
-In order to use the CRM system and its features , the user must login and enter his/her registered information correctly.
+---
 
-2. Admin control :
-The admin can add other users and decide the roles and rights of different users ie managing the accessibility rights for the system.
+## 🔍 Introduction
 
-3. Main Dashboard :
-The user/admin can see and navigate to the different sections of the CRM system like Tasks , Leads , Emails , Organizations and Contacts.
+Traditional CRM systems rely heavily on manual data entry and rule-based systems, often resulting in inaccurate or outdated information. Our solution integrates AI to automate tasks like sentiment detection, data validation, and intelligent prediction of missing data. This leads to better decision-making, improved customer insights, and reduced manual overhead.
 
-4. Contacts , Products :
-The user/admin can add, edit and manage the organization’s contacts and their products which helps in customer interaction and sales .
+---
 
-5. Emails section with Automatic Spam filtering :
-The user/admin can send and receive emails of their organization in this section where automatic AI spam filtering will be done , so only relevant
-and useful data will be stored and presented .
+## 🎯 Objective
 
-6. Tasks :
-This section contains the different tasks assigned to the user/admin to perform on the following day . These tasks can be added or edited by the user themselves or the admin will assign specifically to them . Tasks examples include calling or emailing a person , following up with a lead etc.
+To develop an AI-enabled CRM system that enhances the accuracy, reliability, and usability of customer data through:
+- AI-based validation and correction of input fields.
+- Sentiment analysis of customer feedback.
+- Prediction of missing customer details.
+- A user-friendly dashboard for visualization and model management.
 
-7. Leads section using Sentiment Analysis :
-The user can input the main statements from the call they had with a customer and the system will predict on the basis of the statement if he/she can be a potential or recurring customer for the organization.
+---
 
-8. AI Chatbot :
-The user has the accessibility to communicate and ask queries to an inbuilt AI Chatbot which can answer basic questions related to the features and sections of the CRM system and help them navigate to their required pages.
+## ⚙️ Tools & Technologies
+
+| Area | Tools Used |
+|------|------------|
+| Backend | FastAPI, Transformers, PyTorch, Datasets |
+| Frontend | React.js, Chart.js, TailwindCSS |
+| AI Models | HuggingFace Transformers (`gpt2`, `distilbert`) |
+| Misc | Python, JavaScript, HTML/CSS |
+
+---
+
+## 🖥️ Software & Hardware Requirements
+
+**Software Requirements:**
+- Python 3.8+
+- Node.js 16+
+- npm or yarn
+- Git
+- VS Code or any IDE
+
+**Hardware Requirements:**
+- 8 GB RAM minimum
+- CPU with 4 cores or more (GPU recommended for model training)
+- 20 GB disk space
+
+---
+
+## 📊 Project Features
+
+### Backend Features (FastAPI)
+- AI-Powered Sentiment Analysis
+- Predict Missing CRM Fields
+- Validate Input Data
+- Train Models using Huggingface Transformers
+- JSON-based API Responses
+
+### Frontend Dashboard Features (React)
+- Submit CRM data to the backend for validation and sentiment analysis
+- Monitor training status and logs
+- View visualizations like accuracy over time and feedback sentiment distribution
+- Responsive layout styled with TailwindCSS
+
+---
+
+## 📈 Data Analytics - Short Overview
+
+Data analytics refers to techniques for analyzing raw data to find trends and answer questions. Using methods from statistics, machine learning, and business intelligence, data analytics turns data into actionable insights. The core types include descriptive, diagnostic, predictive, and prescriptive analytics.
+
+---
+
+## ⭐ Key Features of Data Analytics
+
+- Data Collection & Integration
+- Data Cleaning & Preprocessing
+- Descriptive, Predictive & Prescriptive Analytics
+- Real-Time Processing & Visualization
+- AI & ML Integration for Smart Decision Making
+- Secure & Compliant Data Handling
+
+
+---
+
+## 📘 Outcome of the Project
+
+- Reduced manual errors in CRM data.
+- Automated insights into customer sentiments.
+- Efficient user interaction via chatbot and frontend dashboard.
+- A scalable architecture for deploying on cloud platforms like IBM Watson.
+
+---
+
+## 📌 Conclusion & Future Scope
+
+This AI-Enhanced CRM system demonstrates the power of NLP and machine learning in improving CRM workflows. The current version focuses on sentiment analysis, validation, and predictive modeling. Future improvements may include:
+- Speech-to-text analysis for call data.
+- Advanced spam classification in email integration.
+- Deeper customer behavior analytics.
+
+---
+
+## 📚 References
+
+| Title | Author(s) | Year |
+|-------|-----------|------|
+| BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding | Jacob Devlin et al. | 2019 |
+| Attention Is All You Need | Vaswani et al. | 2017 |
+| Huggingface Transformers Library | Huggingface | Ongoing |
+| Applied Text Analysis with Python | Benjamin Bengfort et al. | 2018 |
+
+---
+
+## 👤 Contributors
+- **Varun Yadav G** - Developer
+- **Abhishek P** - Developer
+- **Rishika Jha** - Developer
+- **Rachana S** - Developer
 
 ### Screenshots
 
