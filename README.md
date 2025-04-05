@@ -105,10 +105,10 @@ This AI-Enhanced CRM system demonstrates the power of NLP and machine learning i
 
 | Title | Author(s) | Year |
 |-------|-----------|------|
-| BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding | Jacob Devlin et al. | 2019 |
 | Attention Is All You Need | Vaswani et al. | 2017 |
-| Huggingface Transformers Library | Huggingface | Ongoing |
 | Applied Text Analysis with Python | Benjamin Bengfort et al. | 2018 |
+| BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding | Jacob Devlin et al. | 2019 |
+| Huggingface Transformers Library | Huggingface | Ongoing |
 
 ---
 
